@@ -1,4 +1,4 @@
-import preact from 'preact'
+import React from 'preact'
 import Link from 'gatsby-link'
 
 const IndexPage = () => (
