@@ -6,6 +6,13 @@ import splash from './splash.jpg'
 const Hero = ({ children, image, fullHeight }) => {
   const style = {
     'background-image': `
+      repeating-linear-gradient(
+        135deg,
+        rgba(0, 0, 0, 0.25),
+        rgba(0, 0, 0, 0.25) 10px,
+        rgba(0, 0, 0, 0.3) 10px,
+        rgba(0, 0, 0, 0.3) 15px
+      ),
       linear-gradient(
         110deg,
         hsla(120, 80%, 80%, 0.2),
