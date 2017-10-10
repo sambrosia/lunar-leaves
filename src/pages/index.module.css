@@ -9,7 +9,6 @@
   justify-content: center;
 
   color: #eee;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 .hero h1 {
@@ -37,16 +36,15 @@
 .button {
   cursor: pointer;
   padding: 0.6em;
-  border: 2px solid #eee;
+  background: #eee;
 
-  color: #eee;
+  color: hsl(200, 50%, 20%);
   font-weight: bold;
   text-decoration: none;
 
-  transition: 200ms color, 200ms border-color;
+  transition: 200ms background;
 }
 
 .button:hover {
-  color: hsl(110, 50%, 70%);
-  border-color: hsl(110, 50%, 70%);
+  background: hsl(110, 50%, 70%);
 }
