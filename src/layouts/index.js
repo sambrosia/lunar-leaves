@@ -1,6 +1,7 @@
 import React from 'preact'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -11,7 +12,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' }
       ]}
     />
-    <div>{children()}</div>
+    {children()}
   </div>
 )
 
