@@ -15,8 +15,8 @@ const Hero = ({ children, image, fullHeight }) => {
       ),
       linear-gradient(
         110deg,
-        hsla(120, 80%, 80%, 0.2),
-        hsla(300, 100%, 80%, 0.5)
+        hsla(120, 80%, 80%, 0.15),
+        hsla(300, 100%, 80%, 0.4)
       ),
       url(${image})
     `
@@ -25,7 +25,7 @@ const Hero = ({ children, image, fullHeight }) => {
   if (fullHeight) style['min-height'] = '100vh'
 
   return (
-    <div style={style} className={styles.hero}>
+    <div className={styles.hero} style={style}>
       {children}
     </div>
   )
@@ -52,7 +52,7 @@ const IndexPage = () => (
         </h3>
         <Button>Let's talk.</Button>
       </Content>
-      <a className={styles.heroBottom}>Learn more.</a>
+      <a className={styles.heroBottom}>Tell me more.</a>
     </Hero>
 
     <section>
