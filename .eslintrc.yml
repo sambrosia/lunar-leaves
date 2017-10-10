@@ -1,0 +1,18 @@
+extends:
+  - eslint:recommended
+  - plugin:react/recommended
+  - standard
+  - prettier
+  - prettier/standard
+plugins:
+  - prettier
+  - react
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+rules:
+  prettier/prettier:
+    - error
+    -
+      semi: false
+      singleQuote: true

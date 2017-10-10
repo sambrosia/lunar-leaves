@@ -1,5 +1,4 @@
 import React from 'preact'
-import Link from 'gatsby-link'
 
 const SecondPage = () => (
   <div>
