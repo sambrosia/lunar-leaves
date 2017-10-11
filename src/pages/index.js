@@ -1,5 +1,6 @@
 import React from 'preact'
 import Link from 'gatsby-link'
+import { FaAngleDown } from 'react-icons/lib/fa'
 import styles from './index.module.css'
 import splash from './splash.jpg'
 
@@ -52,7 +53,11 @@ const IndexPage = () => (
         </h3>
         <Button>Let's talk.</Button>
       </Content>
-      <a className={styles.heroBottom}>Tell me more.</a>
+
+      <a className={styles.heroBottom}>
+        <div>Learn more.</div>
+        <FaAngleDown size={48} color="#eee" />
+      </a>
     </Hero>
 
     <section>
