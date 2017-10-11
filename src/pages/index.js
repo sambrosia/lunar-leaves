@@ -1,7 +1,7 @@
 import React from 'preact'
 import Link from 'gatsby-link'
 import { FaAngleDown } from 'react-icons/lib/fa'
-import styles from './index.module.css'
+import styles from './index.module.scss'
 import splash from './splash.jpg'
 
 const Hero = ({ children, image, fullHeight }) => {
