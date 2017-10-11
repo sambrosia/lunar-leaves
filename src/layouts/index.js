@@ -6,7 +6,7 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Quisk | Mobile money for the modern era"
+      title="Quisk | Mobile money for the modern era."
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' }
