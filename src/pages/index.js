@@ -56,7 +56,7 @@ const IndexPage = () => (
 
       <a className={styles.heroBottom}>
         <div>Learn more.</div>
-        <FaAngleDown size={48} color="#eee" />
+        <FaAngleDown size={48} />
       </a>
     </Hero>
 
