@@ -1,46 +1,12 @@
 import React from 'preact'
+
 import Link from 'gatsby-link'
 import { FaAngleDown } from 'react-icons/lib/fa'
-import styles from './index.module.scss'
+import { Hero, HeroFooter } from '../components/Hero'
+import Content from '../components/Content'
+import Button from '../components/Button'
+
 import splash from './splash.jpg'
-
-const Hero = ({ children, image, fullHeight }) => {
-  const style = {
-    'background-image': `
-      repeating-linear-gradient(
-        135deg,
-        rgba(0, 0, 0, 0.25),
-        rgba(0, 0, 0, 0.25) 10px,
-        rgba(0, 0, 0, 0.3) 10px,
-        rgba(0, 0, 0, 0.3) 15px
-      ),
-      linear-gradient(
-        110deg,
-        hsla(120, 80%, 80%, 0.15),
-        hsla(300, 100%, 80%, 0.4)
-      ),
-      url(${image})
-    `
-  }
-
-  if (fullHeight) style['min-height'] = '100vh'
-
-  return (
-    <div className={styles.hero} style={style}>
-      {children}
-    </div>
-  )
-}
-
-const Content = ({ children }) => (
-  <div className={styles.content}>{children}</div>
-)
-
-const Button = ({ children }) => (
-  <Link className={styles.button} to="#">
-    {children}
-  </Link>
-)
 
 const IndexPage = () => (
   <div>
@@ -54,10 +20,10 @@ const IndexPage = () => (
         <Button>Let's talk.</Button>
       </Content>
 
-      <a className={styles.heroBottom}>
+      <HeroFooter>
         <div>Learn more.</div>
         <FaAngleDown size={48} />
-      </a>
+      </HeroFooter>
     </Hero>
 
     <section>
