@@ -1,3 +1,5 @@
+@import '../styles/variables';
+
 .hero {
   width: 100%;
   min-height: 60vh;
@@ -8,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
 
-  color: #eee;
+  color: $color-light;
 }
 
 .hero h1 {
@@ -16,7 +18,7 @@
 }
 
 .hero h3 {
-  background: hsla(250, 50%, 10%, 0.8);
+  background: $color-dark-transparent;
   padding: 12px 6px;
   margin-bottom: 1.6em;
 }
@@ -42,9 +44,9 @@
   padding: 6px 12px;
   outline: none;
   border: none;
-  background: hsl(95, 50%, 60%);
+  background: $color-primary;
 
-  color: hsl(200, 50%, 20%);
+  color: $color-dark-transparent;
   font-weight: bold;
   text-decoration: none;
 
