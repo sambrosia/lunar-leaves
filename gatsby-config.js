@@ -5,7 +5,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-preact',
-    'gatsby-plugin-postcss-sass',
+    {
+      resolve: 'gatsby-plugin-postcss-sass',
+      options: {
+        precision: 8
+      }
+    },
     {
       resolve: 'gatsby-plugin-typography',
       options: {
