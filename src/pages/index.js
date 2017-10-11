@@ -62,8 +62,17 @@ const IndexPage = () => (
 
     <section>
       <Content>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
+        <h1>The next step in the evolution of money.</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
+          quam sit amet metus ultrices maximus at at enim. Aliquam sit amet
+          neque in justo fringilla vehicula id ac augue. Morbi aliquam finibus
+          dui, venenatis sollicitudin quam viverra sit amet. Duis nec
+          scelerisque risus, id vulputate nisi. In faucibus dui in mollis
+          interdum. Pellentesque habitant morbi tristique senectus et netus et
+          malesuada fames ac turpis egestas. Suspendisse feugiat auctor mauris,
+          at tincidunt ipsum mollis eget.
+        </p>
         <Link to="/page-2/">Go to page 2</Link>
       </Content>
     </section>
