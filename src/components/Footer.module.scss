@@ -1,0 +1,6 @@
+@import '../styles/variables';
+
+.footer {
+  background: darken($color-light, 6%);
+  color: rgba($color-dark, 0.6);
+}

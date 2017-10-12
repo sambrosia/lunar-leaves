@@ -1,6 +1,7 @@
 import React from 'preact'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Footer from '../components/Footer'
 import './index.scss'
 
 const TemplateWrapper = ({ children }) => (
@@ -13,6 +14,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     {children()}
+    <Footer />
   </div>
 )
 
