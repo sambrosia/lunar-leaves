@@ -1,7 +1,12 @@
 @import '../styles/variables';
 
-html {
+html,
+body {
   background: $color-light;
+
+  // This is overriding typography.js' color.
+  // FIXME: I should probably configure it properly instead of overriding.
+  color: lighten($color-dark, 10%);
 }
 
 .footer {
