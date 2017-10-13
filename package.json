@@ -12,15 +12,12 @@
     "gatsby-plugin-typography": "^1.7.10",
     "react-icons": "^2.2.7"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
+    "start": "gatsby develop",
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
     "format": "prettier es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
