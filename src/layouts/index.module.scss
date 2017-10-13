@@ -1,5 +1,9 @@
 @import '../styles/variables';
 
+html {
+  background: $color-light;
+}
+
 .footer {
   background-color: darken($color-light, 6%);
   background-image: repeating-linear-gradient(

@@ -1,8 +1,22 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Footer from '../components/Footer'
-import './index.scss'
+import Content from '../components/Content'
+import styles from './index.module.scss'
+
+const Footer = () => (
+  <section className={styles.footer}>
+    <Content>
+      <div>
+        <span>---------</span> <span>------</span> <span>-------------</span>{' '}
+        <span>---------</span>
+      </div>
+      <div>
+        <span>-----------------</span> © 2017
+      </div>
+    </Content>
+  </section>
+)
 
 const TemplateWrapper = ({ children }) => (
   <div>
