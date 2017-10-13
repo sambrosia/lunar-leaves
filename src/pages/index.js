@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Helmet from 'react-helmet'
 import FaAngleDown from 'react-icons/lib/fa/angle-down'
 import { Hero, HeroFooter } from '../components/Hero'
 import Content from '../components/Content'
@@ -10,6 +11,10 @@ import splash from './splash.jpg'
 
 const IndexPage = () => (
   <div>
+    <Helmet>
+      <link rel="preload" href={splash} as="image" />
+    </Helmet>
+
     <Hero image={splash} fullHeight>
       <Content>
         <h1>Quisk.</h1>
