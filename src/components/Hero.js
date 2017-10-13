@@ -6,7 +6,7 @@ const Hero = ({ children, image, fullHeight }) => {
   const style = {
     backgroundImage: `
       repeating-linear-gradient(
-        135deg,
+        -45deg,
         transparent,
         transparent 10px,
         rgba(0, 0, 0, 0.03) 10px,
