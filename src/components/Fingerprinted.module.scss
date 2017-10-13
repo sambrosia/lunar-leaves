@@ -27,5 +27,16 @@
       $color-primary 9px,
       $color-primary 10px
     );
+
+    animation: wipeInTop 1s ease-out;
+  }
+}
+
+@keyframes wipeInTop {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
   }
 }
