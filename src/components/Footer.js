@@ -4,7 +4,15 @@ import styles from './Footer.module.scss'
 
 const Footer = () => (
   <section className={styles.footer}>
-    <Content>Sam Woodruff © 2017</Content>
+    <Content>
+      <div>
+        <span>---------</span> <span>------</span> <span>-------------</span>{' '}
+        <span>---------</span>
+      </div>
+      <div>
+        <span>-----------------</span> © 2017
+      </div>
+    </Content>
   </section>
 )
 
