@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaAngleDown } from 'react-icons/lib/fa'
+import FaAngleDown from 'react-icons/lib/fa/angle-down'
 import { Hero, HeroFooter } from '../components/Hero'
 import Content from '../components/Content'
 import Fingerprinted from '../components/Fingerprinted'
