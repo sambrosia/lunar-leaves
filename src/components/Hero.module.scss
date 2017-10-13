@@ -12,16 +12,17 @@
   justify-content: center;
 
   color: $color-light;
-}
 
-.hero h1 {
-  font-size: 5em;
-}
+  h1 {
+    font-size: 5rem;
+  }
 
-.hero h3 {
-  background: rgba($color-dark, 0.8);
-  padding: 12px 6px;
-  margin-bottom: 40px;
+  h3 {
+    display: inline-block;
+    background: rgba($color-dark, 0.8);
+    padding: 12px 6px;
+    margin-bottom: 40px;
+  }
 }
 
 .heroFooter {
