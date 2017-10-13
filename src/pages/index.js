@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Link from 'gatsby-link'
 import { FaAngleDown } from 'react-icons/lib/fa'
 import { Hero, HeroFooter } from '../components/Hero'
 import Content from '../components/Content'
+import Fingerprinted from '../components/Fingerprinted'
 import Button from '../components/Button'
 
 import splash from './splash.jpg'
@@ -29,17 +29,19 @@ const IndexPage = () => (
     <section>
       <Content>
         <h1>The next step in the evolution of money.</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
-          quam sit amet metus ultrices maximus at at enim. Aliquam sit amet
-          neque in justo fringilla vehicula id ac augue. Morbi aliquam finibus
-          dui, venenatis sollicitudin quam viverra sit amet. Duis nec
-          scelerisque risus, id vulputate nisi. In faucibus dui in mollis
-          interdum. Pellentesque habitant morbi tristique senectus et netus et
-          malesuada fames ac turpis egestas. Suspendisse feugiat auctor mauris,
-          at tincidunt ipsum mollis eget.
-        </p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <Fingerprinted>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            aliquam tincidunt nisl eget venenatis. Aliquam sem risus, dapibus
+            sed accumsan quis, ornare non tortor.
+          </p>
+          <p>
+            Etiam hendrerit massa nec vestibulum interdum. Aenean lorem mauris,
+            bibendum nec varius quis, laoreet non sapien. Vestibulum volutpat
+            dapibus metus, quis sagittis libero vulputate quis. Etiam varius
+            volutpat nisl at egestas. Curabitur a accumsan eros.
+          </p>
+        </Fingerprinted>
       </Content>
     </section>
   </div>
