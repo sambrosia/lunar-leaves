@@ -1,4 +1,4 @@
-import React from 'preact'
+import React from 'react'
 import Content from './Content'
 import styles from './Footer.module.scss'
 

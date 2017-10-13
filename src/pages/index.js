@@ -1,4 +1,4 @@
-import React from 'preact'
+import React from 'react'
 
 import Link from 'gatsby-link'
 import { FaAngleDown } from 'react-icons/lib/fa'

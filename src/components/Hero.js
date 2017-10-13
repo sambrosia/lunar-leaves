@@ -1,10 +1,10 @@
-import React from 'preact'
+import React from 'react'
 import styles from './Hero.module.scss'
 
 // Big pretty full-width section with vertically centered content
 const Hero = ({ children, image, fullHeight }) => {
   const style = {
-    'background-image': `
+    backgroundImage: `
       repeating-linear-gradient(
         135deg,
         rgba(0, 0, 0, 0.25),
@@ -21,7 +21,7 @@ const Hero = ({ children, image, fullHeight }) => {
     `
   }
 
-  if (fullHeight) style['min-height'] = '100vh'
+  if (fullHeight) style['minHeight'] = '100vh'
 
   return (
     <section className={styles.hero} style={style}>

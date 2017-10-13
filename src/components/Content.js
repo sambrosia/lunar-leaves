@@ -1,4 +1,4 @@
-import React from 'preact'
+import React from 'react'
 import styles from './Content.module.scss'
 
 const Content = ({ children }) => (

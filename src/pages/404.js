@@ -1,4 +1,4 @@
-import React from 'preact'
+import React from 'react'
 
 const NotFoundPage = () => (
   <div>
