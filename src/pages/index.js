@@ -13,11 +13,13 @@ const IndexPage = () => (
     <Hero image={splash} fullHeight>
       <Content>
         <h1>Quisk.</h1>
-        <h3>
-          We bring you <u>fast</u>, <u>simple</u>, and <u>secure</u> mobile
-          payment.
-        </h3>
-        <Button>Let's talk.</Button>
+        <Fingerprinted>
+          <h3>
+            We bring you <u>fast</u>, <u>simple</u>, and <u>secure</u> mobile
+            payment.
+          </h3>
+          <Button>Let's talk.</Button>
+        </Fingerprinted>
       </Content>
 
       <HeroFooter>
