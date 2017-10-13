@@ -7,15 +7,15 @@ const Hero = ({ children, image, fullHeight }) => {
     backgroundImage: `
       repeating-linear-gradient(
         135deg,
-        rgba(0, 0, 0, 0.25),
-        rgba(0, 0, 0, 0.25) 10px,
-        rgba(0, 0, 0, 0.3) 10px,
-        rgba(0, 0, 0, 0.3) 15px
+        transparent,
+        transparent 10px,
+        rgba(0, 0, 0, 0.03) 10px,
+        rgba(0, 0, 0, 0.03) 15px
       ),
       linear-gradient(
         110deg,
-        hsla(120, 80%, 80%, 0.15),
-        hsla(300, 100%, 80%, 0.4)
+        hsla(120, 15%, 35%, 0.25),
+        hsla(300, 40%, 35%, 0.5)
       ),
       url(${image})
     `
