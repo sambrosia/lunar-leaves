@@ -12,7 +12,7 @@ const Footer = () => (
         <span>---------</span>
       </div>
       <div>
-        <span>-----------------</span> © 2017
+        <span>-----------------</span> © 2077
       </div>
     </Content>
   </section>
@@ -21,7 +21,7 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Quisk | Mobile money for the modern era."
+      title="Lunar Leaves ● Tea from the Earth to the Moon."
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' }
