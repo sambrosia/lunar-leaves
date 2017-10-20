@@ -1,7 +1,7 @@
 {
-  "name": "quisk.co",
-  "description": "Quisk site built with Gatsby",
-  "version": "1.0.0",
+  "name": "lunar-leaves",
+  "description": "A fictional TaaS (tea-as-a-service) site for astronauts",
+  "version": "0.0.0",
   "author": "Sam Woodruff",
   "private": true,
   "dependencies": {
